@@ -1,0 +1,14 @@
+{
+  "frontend/src/App.tsx": "Main application component rendering Header, Hero, seven god/collection sections (Krishna, Ganesha, Shiva, Parvati, Handmade Portraits, Marble Structures, Other Gods), ContactSection, and Footer in a single-page layout.",
+  "frontend/src/components/site/Header.tsx": "Sticky header with logo, brand name, and responsive navigation supporting smooth scrolling to eight sections (seven collections + contact) with mobile menu toggle.",
+  "frontend/src/components/site/Hero.tsx": "Hero section with enhanced styling featuring background image, decorative gold filigree corners, headline, description, and CTA button with improved hover effects and shadows.",
+  "frontend/src/components/site/GodSection.tsx": "Reusable section component with refined typography and spacing displaying titled collections with decorative banner backgrounds and responsive item grids.",
+  "frontend/src/components/site/ItemCard.tsx": "Enhanced card component with improved hover effects, backdrop blur, border transitions, and elevation changes for premium royal aesthetic.",
+  "frontend/src/components/site/Footer.tsx": "Enhanced footer with brand info, collection links, contact details, and caffeine.ai attribution with UTM tracking and dynamic year.",
+  "frontend/src/data/placeholders.ts": "TypeScript data file containing placeholder marble art items for all seven collections (Krishna, Ganesha, Shiva, Parvati, Handmade Portraits, Marble Structures, Other Gods) with titles, descriptions, and unique per-item local static image paths matching each item's specific identity.",
+  "frontend/src/index.css": "Global styles with OKLCH royal color palette (burgundy, gold, navy tones), custom font imports (Cinzel for headings, Inter for body), and royal shadow utility unchanged.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with Cinzel and Inter fonts, royal color tokens (burgundy, gold, navy, border), and custom royal shadow utility.",
+  "frontend/index.html": "HTML entry point with updated title, meta description, and font preconnect links for Google Fonts.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file for future backend query hooks; currently no backend integration needed for this static marketing site.",
+  "frontend/src/components/site/ContactSection.tsx": "Premium contact section component displaying email and phone contact information in styled cards with icons, call-to-action buttons, and smooth-scroll navigation support."
+}

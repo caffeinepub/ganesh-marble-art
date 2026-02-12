@@ -1,0 +1,32 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-12T17:21:13.052Z",
+  "summary": "placeholders.ts was updated to use unique local /assets/generated image paths for Krishna, Ganesha, Shiva, and (partially shown) Parvati items. However, the diff is truncated and does not provide evidence that the remaining required collections (Handmade Human Portraits, Marble Structures, Other Gods) were updated, nor that the referenced static image assets were added/are present under frontend/public/assets/generated.",
+  "missing_requirements": [
+    {
+      "id": "REQ-13",
+      "requirement": "Ensure each of the 4 item cards in every collection section (Krishna, Ganesha, Shiva, Parvati, Handmade Human Portraits, Marble Structures, Other Gods) displays a different image (no single image reused for all items in that section), with clear visual differentiation by category, all served from /assets/generated.",
+      "reason": "The diff shows unique images for Krishna/Ganesha/Shiva and begins Parvati, but the file is truncated and provides no evidence that Handmade Human Portraits, Marble Structures, and Other Gods collections were updated to have 4 distinct per-item images in each section. Category-level differentiation for those sections also cannot be verified from the provided excerpt.",
+      "evidence": [
+        "frontend/src/data/placeholders.ts (truncated)"
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "requirement": "Modify frontend/src/data/placeholders.ts so every MarbleItem in each collection array points to its own dedicated local image filename under /assets/generated (one unique image per item id) and matches an existing generated asset file under frontend/public/assets/generated (no broken images/404s).",
+      "reason": "While the excerpt shows unique /assets/generated filenames for several items, the diff is truncated before confirming the remaining collections. Additionally, no static asset files are shown as added/modified under frontend/public/assets/generated, so existence of the referenced filenames (and therefore 404-free rendering) cannot be verified from this diff summary.",
+      "evidence": [
+        "frontend/src/data/placeholders.ts (truncated)",
+        "File diff summary shows no changes under frontend/public/assets/generated (no added files listed)"
+      ]
+    }
+  ],
+  "hallucinated_features": [],
+  "confidence": 0.55,
+  "changed_files": [
+    "frontend-file-summaries.txt",
+    "frontend/src/data/placeholders.ts",
+    "project_state.json"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "backend/main.mo": "Minimal Motoko canister actor with no methods or logic.",
+  "feature_evidence.json": "JSON report listing feature requirements, related files, components, and confidence levels.",
+  "frontend-file-summaries.txt": "Text file containing prewritten one‑sentence summaries for all major frontend components and data files.",
+  "frontend/index.css": "Tailwind base and utility setup defining OKLCH color variables, dark mode overrides, and global background/text styling.",
+  "frontend/index.html": "HTML entry point setting metadata, font preconnects, and loading the React app root.",
+  "frontend/src/App.tsx": "Main React component assembling Header, Hero, all GodSection collections, ContactSection, and Footer.",
+  "frontend/src/components/site/ContactSection.tsx": "Contact section showing email and phone cards with icons, call‑to‑action buttons, and decorative background.",
+  "frontend/src/components/site/Footer.tsx": "Footer displaying brand info, collection shortcuts, contact links, dynamic year, and attribution.",
+  "frontend/src/components/site/GodSection.tsx": "Reusable section rendering a titled collection with descriptive text and a grid of ItemCards.",
+  "frontend/src/components/site/Header.tsx": "Sticky header with logo and responsive navigation supporting smooth scrolling and mobile menu toggle.",
+  "frontend/src/components/site/Hero.tsx": "Hero section component with background imagery, decorative elements, and a button that scrolls to the collections section.",
+  "frontend/src/components/site/ItemCard.tsx": "Card component that displays an image, title, and description with hover animations.",
+  "frontend/src/data/placeholders.ts": "Defines a MarbleItem interface and provides static placeholder item lists for multiple deity categories.",
+  "frontend/src/hooks/useActor.ts": "React hook that creates and manages a backend actor instance based on the user's Internet Identity.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Implements Internet Identity context and provider, handling authentication, identity loading, and login state.",
+  "frontend/src/hooks/useQueries.ts": "Empty placeholder file reserved for future backend queries.",
+  "frontend/src/index.css": "Global styles and Tailwind layers defining typography, color variables, and custom utilities.",
+  "frontend/src/main.tsx": "Application entry point that mounts React, sets up React Query, and wraps the app with the Internet Identity provider.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending theme colors, fonts, components, and enabling plugins.",
+  "project_state.json": "Defines the website project's current state, required marble statue images, and issues with mismatched artwork across collections. Marks this as a fix request with detailed image specifications."
+}

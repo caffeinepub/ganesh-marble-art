@@ -1,0 +1,174 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Unique per-item placeholder images matched to marble art names",
+  "requirements": [
+    {
+      "id": "REQ-13",
+      "summary": "Add unique, category-matching static placeholder images so each item card shows a distinct image per item within every collection section.",
+      "acceptanceCriteria": [
+        "In each collection section (Krishna, Ganesha, Shiva, Parvati, Handmade Human Portraits, Marble Structures, Other Gods), each of the 4 item cards displays a different image (no single image reused for all items in that section).",
+        "Images for Shiva items look distinct from Parvati items, which look distinct from Human Portrait items, which look distinct from Marble Structures items (clear visual differentiation by category).",
+        "All item images are served from local static paths under /assets/generated (no external URLs)."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/public/assets/generated/krishna-1.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Krishna item 1 (Krishna with Flute) at frontend/public/assets/generated/krishna-1.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/krishna-2.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Krishna item 2 (Radha Krishna) at frontend/public/assets/generated/krishna-2.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/krishna-3.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Krishna item 3 (Bal Krishna) at frontend/public/assets/generated/krishna-3.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/krishna-4.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Krishna item 4 (Krishna Govardhan) at frontend/public/assets/generated/krishna-4.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/ganesha-1.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Ganesha item 1 (Seated Ganesha) at frontend/public/assets/generated/ganesha-1.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/ganesha-2.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Ganesha item 2 (Dancing Ganesha) at frontend/public/assets/generated/ganesha-2.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/ganesha-3.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Ganesha item 3 (Ganesha with Modak) at frontend/public/assets/generated/ganesha-3.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/ganesha-4.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Ganesha item 4 (Blessing Ganesha) at frontend/public/assets/generated/ganesha-4.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/shiva-1.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Shiva item 1 (Shiva in Meditation) at frontend/public/assets/generated/shiva-1.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/shiva-2.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Shiva item 2 (Nataraja Shiva) at frontend/public/assets/generated/shiva-2.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/shiva-3.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Shiva item 3 (Shiva Lingam) at frontend/public/assets/generated/shiva-3.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/shiva-4.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Shiva item 4 (Ardhanarishvara) at frontend/public/assets/generated/shiva-4.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/parvati-1.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Parvati item 1 (Goddess Parvati) at frontend/public/assets/generated/parvati-1.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/parvati-2.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Parvati item 2 (Durga Maa) at frontend/public/assets/generated/parvati-2.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/parvati-3.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Parvati item 3 (Kali Maa) at frontend/public/assets/generated/parvati-3.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/parvati-4.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Parvati item 4 (Annapurna Devi) at frontend/public/assets/generated/parvati-4.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/portrait-1.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Handmade Human Portrait item 1 (Classical Portrait) at frontend/public/assets/generated/portrait-1.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/portrait-2.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Handmade Human Portrait item 2 (Royal Figure) at frontend/public/assets/generated/portrait-2.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/portrait-3.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Handmade Human Portrait item 3 (Artistic Bust) at frontend/public/assets/generated/portrait-3.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/portrait-4.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Handmade Human Portrait item 4 (Heritage Portrait) at frontend/public/assets/generated/portrait-4.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/structure-1.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Marble Structures item 1 (Temple Pillar) at frontend/public/assets/generated/structure-1.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/structure-2.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Marble Structures item 2 (Decorative Arch) at frontend/public/assets/generated/structure-2.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/structure-3.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Marble Structures item 3 (Marble Fountain) at frontend/public/assets/generated/structure-3.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/structure-4.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Marble Structures item 4 (Architectural Panel) at frontend/public/assets/generated/structure-4.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/other-1.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Other Gods item 1 (Goddess Lakshmi) at frontend/public/assets/generated/other-1.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/other-2.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Other Gods item 2 (Lord Hanuman) at frontend/public/assets/generated/other-2.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/other-3.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Other Gods item 3 (Goddess Saraswati) at frontend/public/assets/generated/other-3.dim_800x1000.png."
+        },
+        {
+          "path": "frontend/public/assets/generated/other-4.dim_800x1000.png",
+          "operation": "create",
+          "description": "Add generated static image asset for Other Gods item 4 (Lord Vishnu) at frontend/public/assets/generated/other-4.dim_800x1000.png."
+        }
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "summary": "Update placeholder data so each MarbleItem references its dedicated local generated image file under /assets/generated.",
+      "acceptanceCriteria": [
+        "frontend/src/data/placeholders.ts no longer repeats the same image path across multiple different items within the same collection array.",
+        "Each item’s image path matches an existing generated asset filename listed in this build request (and stored under frontend/public/assets/generated).",
+        "The UI renders without broken images (no 404s for any placeholder image paths)."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/data/placeholders.ts",
+          "operation": "modify",
+          "description": "Update each MarbleItem.image to point to its unique per-item local asset under /assets/generated: krishna-1.dim_800x1000.png, krishna-2.dim_800x1000.png, krishna-3.dim_800x1000.png, krishna-4.dim_800x1000.png; ganesha-1.dim_800x1000.png..ganesha-4.dim_800x1000.png; shiva-1.dim_800x1000.png..shiva-4.dim_800x1000.png; parvati-1.dim_800x1000.png..parvati-4.dim_800x1000.png; portrait-1.dim_800x1000.png..portrait-4.dim_800x1000.png; structure-1.dim_800x1000.png..structure-4.dim_800x1000.png; other-1.dim_800x1000.png..other-4.dim_800x1000.png. Ensure no image path is reused within the same collection array and all paths remain local (no external URLs)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "kind": "build_request",
+  "title": "Make placeholder artwork images match each marble art name (unique per item)",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-13",
+      "text": "Update the placeholder marble art catalog so each item card uses an image that visually matches its item title/category, instead of reusing the same image across many items.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "bro make the arts as u defined the name they were same almost pls correct the pictures"
+        ]
+      },
+      "acceptanceCriteria": [
+        "In each collection section (Krishna, Ganesha, Shiva, Parvati, Handmade Human Portraits, Marble Structures, Other Gods), each of the 4 item cards displays a different image (no single image reused for all items in that section).",
+        "Images for Shiva items look distinct from Parvati items, which look distinct from Human Portrait items, which look distinct from Marble Structures items (clear visual differentiation by category).",
+        "All item images are served from local static paths under /assets/generated (no external URLs)."
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "text": "Modify frontend/src/data/placeholders.ts so every MarbleItem in each collection array points to its own dedicated local image filename under \"/assets/generated\" (one unique image per item id).",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "pls correct the pictures"
+        ]
+      },
+      "acceptanceCriteria": [
+        "frontend/src/data/placeholders.ts no longer repeats the same image path across multiple different items within the same collection array.",
+        "Each item’s image path matches an existing generated asset filename listed in this build request (and stored under frontend/public/assets/generated).",
+        "The UI renders without broken images (no 404s for any placeholder image paths)."
+      ]
+    }
+  ],
+  "constraints": [
+    "Frontend must not modify files under frontend/src/components/ui or any paths listed in frontend.immutablePaths.",
+    "Do not route images through the backend; images must be static assets under frontend/public/assets/generated.",
+    "Backend must remain a single Motoko actor (no additional backend services or databases)."
+  ],
+  "nonGoals": [
+    "Do not add new sections, navigation items, or change user-facing copy beyond what is required to fix image-to-item mismatches.",
+    "Do not implement backend-driven inventory management or admin upload features."
+  ],
+  "imageRequirements": {
+    "required": [
+      "Photorealistic white marble statue of Lord Krishna playing a flute on a neutral luxurious background (krishna-1.dim_800x1000.png)",
+      "Photorealistic white marble statue of Radha and Krishna together on a neutral luxurious background (krishna-2.dim_800x1000.png)",
+      "Photorealistic white marble statue of child Krishna (Bal Krishna) on a neutral luxurious background (krishna-3.dim_800x1000.png)",
+      "Photorealistic white marble statue of Krishna lifting Govardhan mountain on a neutral luxurious background (krishna-4.dim_800x1000.png)",
+      "Photorealistic white marble statue of seated Lord Ganesha on a neutral luxurious background (ganesha-1.dim_800x1000.png)",
+      "Photorealistic white marble statue of dancing Lord Ganesha on a neutral luxurious background (ganesha-2.dim_800x1000.png)",
+      "Photorealistic white marble statue of Lord Ganesha holding modak on a neutral luxurious background (ganesha-3.dim_800x1000.png)",
+      "Photorealistic white marble statue of blessing Lord Ganesha on a neutral luxurious background (ganesha-4.dim_800x1000.png)",
+      "Photorealistic white marble statue of Lord Shiva meditating on a neutral luxurious background (shiva-1.dim_800x1000.png)",
+      "Photorealistic white marble statue of Nataraja Shiva dancing on a neutral luxurious background (shiva-2.dim_800x1000.png)",
+      "Photorealistic white marble Shiva lingam sculpture on a neutral luxurious background (shiva-3.dim_800x1000.png)",
+      "Photorealistic white marble Ardhanarishvara (half Shiva half Parvati) statue on a neutral luxurious background (shiva-4.dim_800x1000.png)",
+      "Photorealistic white marble statue of Goddess Parvati on a neutral luxurious background (parvati-1.dim_800x1000.png)",
+      "Photorealistic white marble statue of Goddess Durga with lion on a neutral luxurious background (parvati-2.dim_800x1000.png)",
+      "Photorealistic white marble statue of Goddess Kali on a neutral luxurious background (parvati-3.dim_800x1000.png)",
+      "Photorealistic white marble statue of Goddess Annapurna on a neutral luxurious background (parvati-4.dim_800x1000.png)",
+      "Photorealistic white marble classical human portrait bust sculpture on a neutral luxurious background (portrait-1.dim_800x1000.png)",
+      "Photorealistic white marble regal human figure portrait sculpture on a neutral luxurious background (portrait-2.dim_800x1000.png)",
+      "Photorealistic white marble artistic human bust sculpture on a neutral luxurious background (portrait-3.dim_800x1000.png)",
+      "Photorealistic white marble heritage-style human portrait sculpture on a neutral luxurious background (portrait-4.dim_800x1000.png)",
+      "Photorealistic white marble ornate temple pillar architectural sculpture on a neutral luxurious background (structure-1.dim_800x1000.png)",
+      "Photorealistic white marble decorative archway architectural sculpture on a neutral luxurious background (structure-2.dim_800x1000.png)",
+      "Photorealistic white marble fountain sculpture on a neutral luxurious background (structure-3.dim_800x1000.png)",
+      "Photorealistic white marble carved architectural panel sculpture on a neutral luxurious background (structure-4.dim_800x1000.png)",
+      "Photorealistic white marble statue of Goddess Lakshmi on a neutral luxurious background (other-1.dim_800x1000.png)",
+      "Photorealistic white marble statue of Lord Hanuman on a neutral luxurious background (other-2.dim_800x1000.png)",
+      "Photorealistic white marble statue of Goddess Saraswati on a neutral luxurious background (other-3.dim_800x1000.png)",
+      "Photorealistic white marble statue of Lord Vishnu on a neutral luxurious background (other-4.dim_800x1000.png)"
+    ],
+    "edits": []
+  },
+  "userProfileUpdate": {
+    "goalsToAdd": [],
+    "goalsToRemove": [],
+    "preferencesToAdd": [],
+    "preferencesToRemove": [],
+    "miscToAdd": [],
+    "miscToRemove": [],
+    "fieldsToSet": {},
+    "fieldsToDelete": []
+  }
+}

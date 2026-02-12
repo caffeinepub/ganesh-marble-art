@@ -1,0 +1,161 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 9,
+  "summary": "Website project: \"Ganesh Marble Art\" — a professional, balanced royal-looking marble-art website with premium styling, adding new collection sections (Shiva, Parvati Ji, Handmade Human Portraits, and Marble Structures) and including visible contact details (email + phone).",
+  "architectural_notes": [],
+  "known_issues": [
+    "Section/collection artwork images are almost the same across different named arts; images should be corrected so each collection/item matches its name (e.g., Shiva vs Parvati vs Human Portrait vs Marble Structure)."
+  ],
+  "isFixRequest": true,
+  "imageRequirements": "## Required Images\n- Photorealistic white marble statue of Lord Krishna playing a flute on a neutral luxurious background (krishna-1.dim_800x1000.png)\n- Photorealistic white marble statue of Radha and Krishna together on a neutral luxurious background (krishna-2.dim_800x1000.png)\n- Photorealistic white marble statue of child Krishna (Bal Krishna) on a neutral luxurious background (krishna-3.dim_800x1000.png)\n- Photorealistic white marble statue of Krishna lifting Govardhan mountain on a neutral luxurious background (krishna-4.dim_800x1000.png)\n- Photorealistic white marble statue of seated Lord Ganesha on a neutral luxurious background (ganesha-1.dim_800x1000.png)\n- Photorealistic white marble statue of dancing Lord Ganesha on a neutral luxurious background (ganesha-2.dim_800x1000.png)\n- Photorealistic white marble statue of Lord Ganesha holding modak on a neutral luxurious background (ganesha-3.dim_800x1000.png)\n- Photorealistic white marble statue of blessing Lord Ganesha on a neutral luxurious background (ganesha-4.dim_800x1000.png)\n- Photorealistic white marble statue of Lord Shiva meditating on a neutral luxurious background (shiva-1.dim_800x1000.png)\n- Photorealistic white marble statue of Nataraja Shiva dancing on a neutral luxurious background (shiva-2.dim_800x1000.png)\n- Photorealistic white marble Shiva lingam sculpture on a neutral luxurious background (shiva-3.dim_800x1000.png)\n- Photorealistic white marble Ardhanarishvara (half Shiva half Parvati) statue on a neutral luxurious background (shiva-4.dim_800x1000.png)\n- Photorealistic white marble statue of Goddess Parvati on a neutral luxurious background (parvati-1.dim_800x1000.png)\n- Photorealistic white marble statue of Goddess Durga with lion on a neutral luxurious background (parvati-2.dim_800x1000.png)\n- Photorealistic white marble statue of Goddess Kali on a neutral luxurious background (parvati-3.dim_800x1000.png)\n- Photorealistic white marble statue of Goddess Annapurna on a neutral luxurious background (parvati-4.dim_800x1000.png)\n- Photorealistic white marble classical human portrait bust sculpture on a neutral luxurious background (portrait-1.dim_800x1000.png)\n- Photorealistic white marble regal human figure portrait sculpture on a neutral luxurious background (portrait-2.dim_800x1000.png)\n- Photorealistic white marble artistic human bust sculpture on a neutral luxurious background (portrait-3.dim_800x1000.png)\n- Photorealistic white marble heritage-style human portrait sculpture on a neutral luxurious background (portrait-4.dim_800x1000.png)\n- Photorealistic white marble ornate temple pillar architectural sculpture on a neutral luxurious background (structure-1.dim_800x1000.png)\n- Photorealistic white marble decorative archway architectural sculpture on a neutral luxurious background (structure-2.dim_800x1000.png)\n- Photorealistic white marble fountain sculpture on a neutral luxurious background (structure-3.dim_800x1000.png)\n- Photorealistic white marble carved architectural panel sculpture on a neutral luxurious background (structure-4.dim_800x1000.png)\n- Photorealistic white marble statue of Goddess Lakshmi on a neutral luxurious background (other-1.dim_800x1000.png)\n- Photorealistic white marble statue of Lord Hanuman on a neutral luxurious background (other-2.dim_800x1000.png)\n- Photorealistic white marble statue of Goddess Saraswati on a neutral luxurious background (other-3.dim_800x1000.png)\n- Photorealistic white marble statue of Lord Vishnu on a neutral luxurious background (other-4.dim_800x1000.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-responsive-marketing-website-titled-ganesh-marble-art-with-clear-navigation-and-separate-sections-for-different-gods-at-minimum-krishna-ganesha-and-an-other-gods-section",
+      "title": "Create a responsive marketing website titled \"Ganesh Marble Art\" with clear navigation and separate sections for different gods (at minimum: Krishna, Ganesha, and an \"Other Gods\" section).",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-consistent-royal-attractive-visual-theme-across-the-site-colors-typography-spacing-and-ui-components-using-a-coherent-design-system",
+      "title": "Apply a consistent royal, attractive visual theme across the site (colors, typography, spacing, and UI components) using a coherent design system.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-homepage-hero-area-for-ganesh-marble-art-that-introduces-the-brand-and-visually-reinforces-the-royal-marble-art-aesthetic",
+      "title": "Add a homepage hero area for \"Ganesh Marble Art\" that introduces the brand and visually reinforces the royal marble-art aesthetic.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-within-each-god-section-krishna-ganesha-other-gods-display-an-attractive-grid-of-placeholder-marble-art-items-cards-with-image-title-and-short-description-ensure-the-ui-supports-adding-real-items-later-without-redesign",
+      "title": "Within each god section (Krishna, Ganesha, Other Gods), display an attractive grid of placeholder marble-art items (cards) with image, title, and short description; ensure the UI supports adding real items later without redesign.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-generate-and-include-required-static-images-for-the-royal-brand-logo-and-decorative-hero-section-visuals-and-render-them-from-frontend-static-assets-no-backend-image-serving",
+      "title": "Generate and include required static images for the royal brand (logo and decorative hero/section visuals) and render them from frontend static assets (no backend image serving).",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-non-essential-footer-elements-so-the-website-focuses-only-on-the-god-marble-collections-keep-brand-collection-navigation-only-remove-placeholder-social-links-and-the-external-caffeine-ai-attribution-block",
+      "title": "Remove non-essential footer elements so the website focuses only on the god marble collections (keep brand + collection navigation only; remove placeholder social links and the external caffeine.ai attribution block).",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-make-section-naming-consistent-and-explicitly-focused-on-god-marble-collections-by-renaming-divine-collection-to-other-gods-anywhere-it-appears-in-navigation-and-section-headings-descriptions",
+      "title": "Make section naming consistent and explicitly focused on god marble collections by renaming \"Divine Collection\" to \"Other Gods\" anywhere it appears in navigation and section headings/descriptions.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-external-placeholder-item-images-unsplash-urls-with-locally-served-professional-looking-static-marble-sculpture-placeholder-images-stored-under-frontend-public-assets-generated-and-update-the-placeholder-item-data-to-use-those-local-image-paths",
+      "title": "Replace external placeholder item images (Unsplash URLs) with locally served, professional-looking static marble sculpture placeholder images stored under frontend/public/assets/generated, and update the placeholder item data to use those local image paths.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-premium-looking-contact-section-that-clearly-displays-the-business-email-gautamdayma2005-gmail-com-and-phone-number-8769262238-using-english-user-facing-text-and-make-it-accessible-from-the-main-navigation-via-smooth-scrolling",
+      "title": "Add a premium-looking Contact section that clearly displays the business email \"gautamdayma2005@gmail.com\" and phone number \"8769262238\" using English user-facing text, and make it accessible from the main navigation via smooth scrolling.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-extend-the-website-with-four-new-marble-collection-sections-lord-shiva-parvati-ji-handmade-human-portraits-and-marble-structures-each-using-the-existing-reusable-section-layout-title-description-and-an-item-grid",
+      "title": "Extend the website with four new marble collection sections: \"Lord Shiva\", \"Parvati Ji\", \"Handmade Human Portraits\", and \"Marble Structures\", each using the existing reusable section layout (title, description, and an item grid).",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-placeholder-item-data-for-the-new-sections-shiva-parvati-ji-handmade-human-portraits-marble-structures-in-the-same-style-as-the-existing-placeholder-arrays-using-locally-served-static-image-paths-under-assets-generated",
+      "title": "Add placeholder item data for the new sections (Shiva, Parvati Ji, Handmade Human Portraits, Marble Structures) in the same style as the existing placeholder arrays, using locally served static image paths under \"/assets/generated\".",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-refine-the-overall-site-styling-to-a-balanced-premium-royal-look-not-too-simple-not-too-flashy-consistently-across-the-entire-page-including-the-new-sections-and-the-new-contact-section-without-introducing-unrelated-features",
+      "title": "Refine the overall site styling to a balanced premium royal look (not too simple, not too flashy) consistently across the entire page, including the new sections and the new Contact section, without introducing unrelated features.",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-placeholder-marble-art-catalog-so-each-item-card-uses-an-image-that-visually-matches-its-item-title-category-instead-of-reusing-the-same-image-across-many-items",
+      "title": "Update the placeholder marble art catalog so each item card uses an image that visually matches its item title/category, instead of reusing the same image across many items.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-modify-frontend-src-data-placeholders-ts-so-every-marbleitem-in-each-collection-array-points-to-its-own-dedicated-local-image-filename-under-assets-generated-one-unique-image-per-item-id",
+      "title": "Modify frontend/src/data/placeholders.ts so every MarbleItem in each collection array points to its own dedicated local image filename under \"/assets/generated\" (one unique image per item id).",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create a website named \"Ganesh Marble Art\" with a royal, attractive design and separate sections/pages for different gods (Krishna, Ganesha, and others).",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Refine the site to be more professional and royal, and remove any extra/unrelated elements so it focuses only on the god marbles content.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Add visible contact details (email: gautamdayma2005@gmail.com, phone: 8769262238) via a premium-looking contact section/area.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Extend the site with additional sections/collections: Shiva marble, Parvati Ji marble, Handmade Human Portraits (marble), and Marble Structures.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Adjust the overall design to a balanced premium royal look (not too simple, not too flashy) consistently across all sections including the newly added ones.",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Ganesh Marble Art",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

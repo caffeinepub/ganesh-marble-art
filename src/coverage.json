@@ -1,0 +1,104 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-12T17:21:13.055Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 2,
+    "implemented": 2,
+    "items": [
+      {
+        "id": "REQ-13",
+        "summary": "Update the placeholder marble art catalog so each item card uses an image that visually matches its item title/category, instead of reusing the same image across many items.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/public/assets/generated/krishna-1.dim_800x1000.png",
+          "frontend/public/assets/generated/krishna-2.dim_800x1000.png",
+          "frontend/public/assets/generated/krishna-3.dim_800x1000.png",
+          "frontend/public/assets/generated/krishna-4.dim_800x1000.png",
+          "frontend/public/assets/generated/ganesha-1.dim_800x1000.png",
+          "frontend/public/assets/generated/ganesha-2.dim_800x1000.png",
+          "frontend/public/assets/generated/ganesha-3.dim_800x1000.png",
+          "frontend/public/assets/generated/ganesha-4.dim_800x1000.png",
+          "frontend/public/assets/generated/shiva-1.dim_800x1000.png",
+          "frontend/public/assets/generated/shiva-2.dim_800x1000.png",
+          "frontend/public/assets/generated/shiva-3.dim_800x1000.png",
+          "frontend/public/assets/generated/shiva-4.dim_800x1000.png",
+          "frontend/public/assets/generated/parvati-1.dim_800x1000.png",
+          "frontend/public/assets/generated/parvati-2.dim_800x1000.png",
+          "frontend/public/assets/generated/parvati-3.dim_800x1000.png",
+          "frontend/public/assets/generated/parvati-4.dim_800x1000.png",
+          "frontend/public/assets/generated/portrait-1.dim_800x1000.png",
+          "frontend/public/assets/generated/portrait-2.dim_800x1000.png",
+          "frontend/public/assets/generated/portrait-3.dim_800x1000.png",
+          "frontend/public/assets/generated/portrait-4.dim_800x1000.png",
+          "frontend/public/assets/generated/structure-1.dim_800x1000.png",
+          "frontend/public/assets/generated/structure-2.dim_800x1000.png",
+          "frontend/public/assets/generated/structure-3.dim_800x1000.png",
+          "frontend/public/assets/generated/structure-4.dim_800x1000.png",
+          "frontend/public/assets/generated/other-1.dim_800x1000.png",
+          "frontend/public/assets/generated/other-2.dim_800x1000.png",
+          "frontend/public/assets/generated/other-3.dim_800x1000.png",
+          "frontend/public/assets/generated/other-4.dim_800x1000.png"
+        ],
+        "matchedFiles": [
+          "frontend/public/assets/generated/krishna-1.dim_800x1000.png",
+          "frontend/public/assets/generated/krishna-2.dim_800x1000.png",
+          "frontend/public/assets/generated/krishna-3.dim_800x1000.png",
+          "frontend/public/assets/generated/krishna-4.dim_800x1000.png",
+          "frontend/public/assets/generated/ganesha-1.dim_800x1000.png",
+          "frontend/public/assets/generated/ganesha-2.dim_800x1000.png",
+          "frontend/public/assets/generated/ganesha-3.dim_800x1000.png",
+          "frontend/public/assets/generated/ganesha-4.dim_800x1000.png",
+          "frontend/public/assets/generated/shiva-1.dim_800x1000.png",
+          "frontend/public/assets/generated/shiva-2.dim_800x1000.png",
+          "frontend/public/assets/generated/shiva-3.dim_800x1000.png",
+          "frontend/public/assets/generated/shiva-4.dim_800x1000.png",
+          "frontend/public/assets/generated/parvati-1.dim_800x1000.png",
+          "frontend/public/assets/generated/parvati-2.dim_800x1000.png",
+          "frontend/public/assets/generated/parvati-3.dim_800x1000.png"
+        ]
+      },
+      {
+        "id": "REQ-14",
+        "summary": "Modify frontend/src/data/placeholders.ts so every MarbleItem in each collection array points to its own dedicated local image filename under \"/assets/generated\" (one unique image per item id).",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/data/placeholders.ts"
+        ],
+        "matchedFiles": [
+          "frontend/src/data/placeholders.ts"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/public/assets/generated/ganesha-1.dim_800x1000.png",
+    "frontend/public/assets/generated/ganesha-2.dim_800x1000.png",
+    "frontend/public/assets/generated/ganesha-3.dim_800x1000.png",
+    "frontend/public/assets/generated/ganesha-4.dim_800x1000.png",
+    "frontend/public/assets/generated/krishna-1.dim_800x1000.png",
+    "frontend/public/assets/generated/krishna-2.dim_800x1000.png",
+    "frontend/public/assets/generated/krishna-3.dim_800x1000.png",
+    "frontend/public/assets/generated/krishna-4.dim_800x1000.png",
+    "frontend/public/assets/generated/parvati-1.dim_800x1000.png",
+    "frontend/public/assets/generated/parvati-2.dim_800x1000.png",
+    "frontend/public/assets/generated/parvati-3.dim_800x1000.png",
+    "frontend/public/assets/generated/shiva-1.dim_800x1000.png",
+    "frontend/public/assets/generated/shiva-2.dim_800x1000.png",
+    "frontend/public/assets/generated/shiva-3.dim_800x1000.png",
+    "frontend/public/assets/generated/shiva-4.dim_800x1000.png",
+    "frontend/src/data/placeholders.ts",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}
